@@ -1,0 +1,8 @@
+[
+    {
+        "label" : "name",
+        "type" : "string",
+        "required" : true,
+        "error" : "Error text"
+    }
+]
