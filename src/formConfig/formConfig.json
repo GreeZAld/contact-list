@@ -1,8 +1,30 @@
 [
     {
-        "label" : "name",
+        "name" : "firstName",
+        "label" : "First Name",
         "type" : "string",
         "required" : true,
-        "error" : "Error text"
+        "error" : "This field must be populated"
+    },
+    {
+        "name" : "lastName",
+        "label" : "Last Name",
+        "type" : "string",
+        "required" : true,
+        "error" : "This field must be populated"
+    },
+    {
+        "name" : "phoneNumber",
+        "label" : "Phone",
+        "type" : "phone",
+        "required" : true,
+        "error" : "This field must be populated"
+    },
+    {
+        "name" : "dateOfBirth",
+        "label" : "Date of Birth",
+        "type" : "date",
+        "required" : false,
+        "error" : "This field must be populated"
     }
 ]
