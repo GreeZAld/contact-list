@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Input(props) {
 
-    const [error, setError] = useState("");
+    const [error, setError] = useState(null);
 
     return(
         <div>
@@ -23,7 +23,7 @@ function Input(props) {
                 />
                 {props.required ? '*' : null}
             </label>
-            <p>{error}</p>
+            {error ? <p>{error}</p> : null}
         </div>
     )
 }
